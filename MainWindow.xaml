@@ -1,0 +1,77 @@
+﻿<Window x:Class="AppsConsola.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppsConsola"
+        mc:Ignorable="d"
+        Title="Menú" Height="500" Width="815">
+    <DockPanel>
+
+        <Menu DockPanel.Dock="Top">
+            <Menu.Background>
+                <ImageBrush ImageSource="/FONDO.png"/>
+            </Menu.Background>
+
+            <Grid VerticalAlignment="Top">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock x:Name="txtMenu" Height="65" TextWrapping="Wrap" Text="MENÚ" Width="120" FontSize="50" FontWeight="Bold" Foreground="#FFF7F1F1" FontFamily="Gabriola" Margin="310,0,-310,0">
+                </TextBlock>
+            </Grid>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <!--Botones del 1 al 5-->
+
+                <Button x:Name="btnEjercicio1" Content="Ejercicio 1" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="0" Click="btnEjercicio1_Click" Margin="-113,96,156,-63" Background="#FFF4F6FB" Foreground="#FF22249A" BorderBrush="#FFFDFAFA"/>
+                <Button x:Name="btnEjercicio2" Content="Ejercicio 2" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Margin="48,96,10,-63" Background="#FFF4F6FB" Foreground="#FF22249A" Click="btnEjercicio2_Click"/>
+                <Button x:Name="btnEjercicio3" Content="Ejercicio 3" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="2" Margin="50,96,29,-63" Background="#FFF4F6FB" Foreground="#FF22249A" Grid.ColumnSpan="2" Click="btnEjercicio3_Click"/>
+                <Button x:Name="btnEjercicio4" Content="Ejercicio 4" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="4" Margin="10,96,0,-63"  Background="#FFF4F6FB" Foreground="#FF22249A" Click="btnEjercicio4_Click" HorizontalAlignment="Left" Width="123"/>
+                <Button x:Name="btnEjercicio5" Content="Ejercicio 5" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="4" Margin="176,96,-101,-63" Background="#FFF4F6FB" Foreground="#FF22249A" Click="btnEjercicio5_Click"/>
+                <!--Botones del 6 al 10-->
+                <Button x:Name="btnEjercicio6" Content="Ejercicio 6" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="0" Margin="-113,157,156,-124" Background="#FFF4F6FB" Foreground="#FF22249A" Click="btnEjercicio6_Click"/>
+                <Button x:Name="btnEjercicio7" Content="Ejercicio 7" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Margin="48,157,10,-124" Background="#FFF4F6FB" Foreground="#FF22249A" Click="btnEjercicio7_Click"/>
+                <Button x:Name="btnEjercicio8" Content="Ejercicio 8" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="2" Margin="50,157,29,-124" Background="#FFF4F6FB" Foreground="#FF22249A" Grid.ColumnSpan="2" Click="btnEjercicio8_Click"/>
+                <Button x:Name="btnEjercicio9" Content="Ejercicio 9" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="4" Margin="10,158,0,-124"  Background="#FFF4F6FB" Foreground="#FF22249A"  HorizontalAlignment="Left" Width="123" Click="btnEjercicio9_Click"/>
+                <Button x:Name="btnEjercicio10" Content="Ejercicio 10" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="4" Margin="176,158,-101,-125" Background="#FFF4F6FB" Foreground="#FF22249A" Click="btnEjercicio10_Click" />
+
+                <!--Botones del 11 al 15-->
+                <Button x:Name="btnEjercicio11" Content="Ejercicio 11" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="0" Margin="-113,217,156,-184" Background="#FFF4F6FB" Foreground="#FF22249A" Click="btnEjercicio11_Click" />
+                <Button x:Name="btnEjercicio12" Content="Ejercicio 12" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Margin="48,217,10,-184" Background="#FFF4F6FB" Foreground="#FF22249A" Click="btnEjercicio12_Click_1"/>
+                <Button x:Name="btnEjercicio13" Content="Ejercicio 13" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="2" Margin="50,217,28,-184" Background="#FFF4F6FB" Foreground="#FF22249A" Grid.ColumnSpan="2" Click="btnEjercicio13_Click" />
+                <Button x:Name="btnEjercicio14" Content="Ejercicio 14" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="4" Margin="10,218,0,-184"  Background="#FFF4F6FB" Foreground="#FF22249A"  HorizontalAlignment="Left" Width="123" Click="btnEjercicio14_Click" />
+                <Button x:Name="btnEjercicio15" Content="Ejercicio 15" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="4" Margin="176,217,-101,-184" Background="#FFF4F6FB" Foreground="#FF22249A" Click="btnEjercicio15_Click" />
+
+                <!--Botones del 16 al 20-->
+                <Button x:Name="btnEjercicio16" Content="Ejercicio 16" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="0" Margin="-113,277,156,-244" Background="#FFF4F6FB" Foreground="#FF22249A" Click="btnEjercicio16_Click" />
+                <Button x:Name="btnEjercicio17" Content="Ejercicio 17" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Margin="48,277,10,-244" Background="#FFF4F6FB" Foreground="#FF22249A" Click="btnEjercicio17_Click" />
+                <Button x:Name="btnEjercicio18" Content="Ejercicio 18" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="2" Margin="50,277,28,-244" Background="#FFF4F6FB" Foreground="#FF22249A" Grid.ColumnSpan="2" Click="btnEjercicio18_Click"  />
+                <Button x:Name="btnEjercicio19" Content="Ejercicio 19" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="4" Margin="10,278,0,-244"  Background="#FFF4F6FB" Foreground="#FF22249A"  HorizontalAlignment="Left" Width="123" Click="btnEjercicio19_Click" />
+                <Button x:Name="btnEjercicio20" Content="Ejercicio 20" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="4" Margin="176,277,-101,-244" Background="#FFF4F6FB" Foreground="#FF22249A" Click="btnEjercicio20_Click"  />
+
+                <!--Botones del 21 al 25-->
+                <Button x:Name="btnEjercicio21" Content="Ejercicio 21" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="0" Margin="-113,335,156,-302" Background="#FFF4F6FB" Foreground="#FF22249A" Click="btnEjercicio21_Click" />
+                <Button x:Name="btnEjercicio22" Content="Ejercicio 22" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Margin="48,335,10,-302" Background="#FFF4F6FB" Foreground="#FF22249A" Click="btnEjercicio22_Click"  />
+                <Button x:Name="btnEjercicio23" Content="Ejercicio 23" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="2" Margin="52,335,28,-302" Background="#FFF4F6FB" Foreground="#FF22249A" Grid.ColumnSpan="2" Click="btnEjercicio23_Click" />
+                <Button x:Name="btnEjercicio24" Content="Ejercicio 24" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="4" Margin="10,335,0,-301"  Background="#FFF4F6FB" Foreground="#FF22249A"  HorizontalAlignment="Left" Width="123" Click="btnEjercicio24_Click" />
+                <Button x:Name="btnEjercicio25" Content="Ejercicio 25" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="4" Margin="176,335,-101,-302" Background="#FFF4F6FB" Foreground="#FF22249A" Click="btnEjercicio25_Click" />
+
+                <!--Botones del 26 al 30-->
+                <Button x:Name="btnEjercicio26" Content="Ejercicio 26" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="0" Margin="-113,389,156,-356" Background="#FFF4F6FB" Foreground="#FF22249A" Click="btnEjercicio26_Click" />
+                <Button x:Name="btnEjercicio27" Content="Ejercicio 27" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Margin="48,389,10,-356" Background="#FFF4F6FB" Foreground="#FF22249A" Click="btnEjercicio27_Click"  />
+                <Button x:Name="btnEjercicio28" Content="Ejercicio 28" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="2" Margin="52,389,28,-356" Background="#FFF4F6FB" Foreground="#FF22249A" Grid.ColumnSpan="2" Click="btnEjercicio28_Click" />
+                <Button x:Name="btnEjercicio29" Content="Ejercicio 29" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="4" Margin="10,389,0,-355"  Background="#FFF4F6FB" Foreground="#FF22249A"  HorizontalAlignment="Left" Width="123" Click="btnEjercicio29_Click" />
+                <Button x:Name="btnEjercicio30" Content="Ejercicio 30" FontFamily="Ink Free" FontSize="20" FontWeight="Bold" Grid.Column="4" Margin="176,389,-101,-356" Background="#FFF4F6FB" Foreground="#FF22249A" Click="btnEjercicio30_Click" />
+
+            </Grid>
+        </Menu>
+    </DockPanel>
+</Window>

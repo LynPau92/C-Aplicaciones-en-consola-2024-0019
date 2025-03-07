@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Ejercicio1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio10.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio11.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio12.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio13.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio14.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio15.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio16.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio17.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio18.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio19.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio20.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio21.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio22.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio23.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio24.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio25.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio26.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio27.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio28.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio29.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio3.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio30.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio4.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio5.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio6.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio7.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio8.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio9.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Ejercicio1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ejercicio2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ejercicio3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ejercicio4.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ejercicio5.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ejercicio6.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ejercicio7.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
